@@ -10,11 +10,11 @@ public class Main {
         conta1.saldo = 4500.0;
         conta1.limite = 10000.0;
 
-        cliente.cpf = "703.018.276-64";
-        cliente.endereco = "Rua Robertson Pinto Coelho 445";
-        cliente.idade = 16;
-        cliente.nome = "Walter Henrique Lessa Neto";
-        cliente.sexo = 'm';
+        cliente.cpf = "Seu CPF";
+        cliente.endereco = "Seu Endereço";
+        cliente.idade = 16; //Sua Idade
+        cliente.nome = "Seu Nome";
+        cliente.sexo = 'm'; //Seu Sexo
 
         Conta conta2 = new Conta();
         Cliente cliente2 = new Cliente();
@@ -24,11 +24,11 @@ public class Main {
         conta2.saldo = 4500.0;
         conta2.limite = 10000.0;
 
-        cliente2.cpf = "703.018.276-64";
-        cliente2.endereco = "Rua Robertson Pinto Coelho 445";
-        cliente2.idade = 16;
-        cliente2.nome = "Walter Henrique Lessa Neto";
-        cliente2.sexo = 'm';
+        cliente2.cpf = "Outro CPF";
+        cliente2.endereco = "Outro Endereço";
+        cliente2.idade = 15; //Idade de alguém
+        cliente2.nome = "Outro Nome";
+        cliente2.sexo = 'f'; //Sexo de alguém
 
         if(conta1 == conta2) {
             System.out.println("Iguais!");
